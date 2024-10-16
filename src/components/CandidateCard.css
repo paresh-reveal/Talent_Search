@@ -1,0 +1,111 @@
+
+.candidate-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .candidate-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .candidate-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .candidate-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .candidate-initials {
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .candidate-name-title h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .candidate-name-title p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  .candidate-info {
+    margin-bottom: 20px;
+  }
+  
+  .candidate-info p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #34495e;
+  }
+  
+  .candidate-info svg {
+    margin-right: 10px;
+    color: #3498db;
+  }
+  
+  .candidate-section {
+    margin-bottom: 20px;
+  }
+  
+  .candidate-section h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .candidate-section h3 svg {
+    margin-right: 10px;
+    color: #3498db;
+  }
+  
+  .candidate-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .candidate-section li {
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .candidate-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .candidate-tag {
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
